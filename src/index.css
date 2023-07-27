@@ -11,6 +11,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 ul{
   list-style-type: none;
@@ -21,7 +22,7 @@ a{
   color:#333;
 }
 .container{
-  max-width: 1240px;
+  max-width:884px;
   margin: auto;
 }
 
@@ -71,14 +72,16 @@ p{
 .btn:hover{
   box-shadow:rgb(0 0 0 / 15%) 0px 8px 24px;
 }
+
 input{
-  padding: 12px 32px;
+  padding: 14px 32px;
   border: 1px solid var(--primary);
   background: transparent;
   border-radius: 24px 4px;
   font-size: 1rem;
-  margin-right: .8rem;
+  margin-right: .4rem;
   font-family: 'Poppins',sans-serif;
+  width: 50%;
 }
 
 
@@ -102,6 +105,10 @@ input{
   
   p{
     font-size: 1rem;
+  }
+  input{
+    width: 100%;
+    margin: 10px 0;
   }
   .btn{
     width: 100%;
