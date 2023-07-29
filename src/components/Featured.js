@@ -22,12 +22,7 @@ const Featured = () => {
   return (
     <div className='featured'>
       <div className='container'>
-        {/*left */}
-        <div className='left'>
-            <h2>Explore top Crypto's Loke Bitcoin, Ethereum, and Dogecoin</h2>
-            <p>See all available assets: Cryptocurrencies an NFT's</p>
-            <button className='btn'>See More Coins</button>
-        </div>
+     
         {/* rigth */}
         <div className='right'>
             <div className='card'>
@@ -175,6 +170,12 @@ const Featured = () => {
             </div>
 
            
+        </div>
+           {/*left */}
+        <div className='left'>
+            <h2>Explore top Crypto's Loke Bitcoin, Ethereum, and Dogecoin</h2>
+            <p>See all available assets: Cryptocurrencies an NFT's</p>
+            <button className='btn'>See More Coins</button>
         </div>
       </div>
     </div>

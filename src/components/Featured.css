@@ -40,7 +40,7 @@
 .featured .right .card{
     display: flex;
     flex-direction: column;
-    padding: 12px 22px;
+    padding: 10px 18px;
     margin: 0.4rem;
     width: 170px;
     height: 170px;
@@ -79,13 +79,16 @@
     .featured .container {
         grid-template-columns: 1fr;
     }
+    .featured .left{
+        margin-top: 5rem;
+    }
     .featured .left .btn{
         align-self: center;
     }
     
 }
 
-@media screen and (max-width:478px) {
+@media screen and (max-width:399px) {
     .featured .container .right .card{
         width: 100%;
     }

@@ -1,0 +1,48 @@
+.invest .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+   
+}
+.invest .right{
+    display: flex;
+    flex-direction: column;
+    
+ 
+}
+
+.invest .right h1{
+    margin: 2rem 0;
+}
+.invest .right button{
+    margin: 1rem;
+    width: 60%;
+}
+
+.invest .left{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invest .left img{
+    max-width: 70%;
+    margin: auto;
+}
+
+@media screen and (max-width:940px) {
+    .invest .container{
+        flex-direction: column-reverse;
+    }
+    .invest .right{
+        text-align: center;
+        align-items: center;
+
+    }
+    .invest .right .btn{
+        width: 100%;
+    }
+    
+}
